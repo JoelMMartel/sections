@@ -1,0 +1,12 @@
+html {
+  font-family: "Lato", regular;
+  background-color: #eee9de;
+  color: #333;
+  line-height: 1.5;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  padding: 2em;
+}
