@@ -19,7 +19,6 @@ div {
 img {
   display: inline-block;
   width: auto;
-  vertical-align: middle;
 }
 section{
   display: block;
@@ -29,6 +28,7 @@ p {
   display: inline-block;
   margin: 1.5rem;
   width: auto;
+  text-align: left;
 }
 
 a {
@@ -44,6 +44,6 @@ a {
 }
 
 a:hover {
-  background-color: #333;
+  background-color: #666;
   color: #fff;
 }
