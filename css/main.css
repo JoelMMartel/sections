@@ -1,5 +1,5 @@
 html {
-  font-family: 'Lato', regular;
+  font-family: Lato, regular;
   background-color: #eee9de;
   color: #333;
   line-height: 1.5;
@@ -11,21 +11,24 @@ html {
 }
 
 h2 {
-  font-family: 'Lato', bold;
+  font-family: Lato, bold;
 }
 
-div {
+div .img {
   display: inline-block;
   max-width: inherit;
+  margin: 1.5rem;
+  padding: 2em;
 }
 
 div .text {
   display: inline-block;
-  padding: 0em;
+  padding: 1em;
 }
 
 img {
   width: 100%;
+  display: inline-block;
 }
 
 section {
