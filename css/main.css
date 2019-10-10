@@ -4,33 +4,37 @@ html {
   color: #333;
   line-height: 1.5;
   box-sizing: border-box;
-  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h2 {
   font-family: 'Lato', bold;
-  margin: 1.5rem;
 }
 
 div {
   display: inline-block;
-  max-width: 25em;
-  padding: 2em;
+  max-width: inherit;
+}
+
+div .text {
+  display: inline-block;
+  padding: 0em;
 }
 
 img {
-  display: inline-block;
-  width: auto;
+  width: 100%;
 }
 
 section {
   display: block;
+  padding: 1em;
 }
-ß
+
 p {
-  display: inline-block;
-  margin: 1.5rem;
-  width: auto;
+  width: inherit;
   text-align: left;
 }
 
