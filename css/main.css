@@ -14,21 +14,22 @@ h2 {
   font-family: Lato, bold;
 }
 
-div .img {
+div {
+  max-width: 25em;
+}
+.img {
   display: inline-block;
-  max-width: inherit;
+  width: 100%;
   margin: 1.5rem;
   padding: 2em;
+  vertical-align: middle;
 }
 
-div .text {
+.text {
   display: inline-block;
   padding: 1em;
-}
-
-img {
-  width: 100%;
-  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
 }
 
 section {
