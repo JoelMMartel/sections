@@ -1,12 +1,14 @@
 html {
-  font-family: "Lato", regular;
+  font-family: 'Lato', regular;
   background-color: #eee9de;
   color: #333;
   line-height: 1.5;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
 
 h2 {
-  font-family: "Lato", bold;
+  font-family: 'Lato', bold;
   margin: 1.5rem;
 }
 
@@ -20,10 +22,11 @@ img {
   display: inline-block;
   width: auto;
 }
-section{
+
+section {
   display: block;
 }
-
+ß
 p {
   display: inline-block;
   margin: 1.5rem;
@@ -31,7 +34,7 @@ p {
   text-align: left;
 }
 
-a {
+.btn {
   margin: 1.5rem;
   display: inline-block;
   border-radius: 6px;
