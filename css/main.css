@@ -4,6 +4,7 @@ html {
   color: #333;
   line-height: 1.5;
   box-sizing: border-box;
+  width: 100%;
 }
 
 *, *::before, *::after {
@@ -12,46 +13,75 @@ html {
 
 h2 {
   font-family: Lato, bold;
+  margin: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+body {
+  vertical-align: center;
+  margin: 0;
+  font-family: Lato;
+  width: 100%;
+  text-align: center;
 }
 
 div {
-  max-width: 25em;
-}
-.img {
   display: inline-block;
-  width: 100%;
-  margin: 1.5rem;
-  padding: 2em;
+  max-width: 25em;
+  margin-top: 0;
   vertical-align: middle;
+  padding: 1em;
+  text-align: left;
+  font-family: Lato, sans-serif;
+}
+
+.img {
+  padding-bottom: 2em;
+  padding-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin-top: -1.5rem;
+  padding-top: 2em;
+  max-height: 100%;
 }
 
 .text {
   display: inline-block;
-  padding: 1em;
   max-width: 25em;
-  vertical-align: middle;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 section {
   display: block;
-  padding: 1em;
+  padding-top: 1em;
+  margin-top: 1.5rem;
 }
 
 p {
   width: inherit;
   text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
 
 .btn {
-  margin: 1.5rem;
   display: inline-block;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 3px solid #333;
   list-style-type: none;
   padding: .4em .75em .5em;
   text-decoration: none;
   color: #333;
-  text-align: center;
+  margin-top: 1.5rem;
+  text-align: left;
 }
 
 a:hover {
